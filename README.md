@@ -14,4 +14,4 @@ method= If scale= TRUE, method correspond to the type of standardization imposed
 evenness= index of evenness to be applied in eingenvalues derived from PCA on matrix M. May be one of the following arguments: "Camargo" to calculate evenness based on Camargo's index; "Pielou" to calculate evenness based in Pielou's evenness or "both", to calculate both index
 
 output:
-numeric, with a value represent the degree of evenness based in one of the two index options or a list with length two containing the results of evenness based on the two option of indexes.
+numeric, with a value represent the degree of evenness based in one of the two index options or a list with length two containing the results of evenness based on the two option of indexes. The greater the index, greater the dimensionality of the set of communities described by matrix M. 
